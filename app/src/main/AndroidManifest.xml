@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homepc.sprinkels">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.homepc.sprinkels.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.homepc.sprinkels.LoginOptionsPage" />
+        <activity android:name="com.example.homepc.sprinkels.SignInPage" />
+        <activity android:name="com.example.homepc.sprinkels.SignUpPage" />
+        <activity
+            android:name="com.example.homepc.sprinkels.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.example.homepc.sprinkels.OrderPage"></activity>
+    </application>
+
+
+</manifest>
